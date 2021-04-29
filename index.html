@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecode.css">
+    <title>Codificado</title>
+</head>
+
+<body>
+
+    <h1 class='modeloFundo'>C0d1f1c4d0r</h1>
+    <h2 class='modeloFundo'>Aqui você pode codificar e descodificar suas mensagens de dois modos:</h2>
+
+    <div id='container' class='modeloFundo'>
+        <div class='conteudo'>
+            <h2>Cifra de César</h2>
+            <p class='explica'>É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra,
+                que se
+                apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três
+                posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em
+                homenagem a Júlio César, que o usou para se comunicar com os seus generais</p>
+
+
+            <h2>Base 64</h2>
+            <p class='explica'>É um algoritmo de codificação (encoding) que permite transformar qualquer caractere de
+                qualquer
+                idioma em um alfabeto que consiste em letras latinas, dígitos e sinais. Com isso podemos converter
+                caracteres especiais como os logogramas chineses, emoji e até imagens em uma sequência “legível”
+                (para qualquer computador), </p>
+        </div>
+
+        <div class='conteudo' id='preencher'>
+            <div class='campo'>
+            <label for="mensagem">Digite sua mensagem</label>
+            <input type="text" name="mensagem" id="mensagem">
+            </div>
+            <div class='campo'>
+            <label for="formato">Escolha o formato</label>
+            <select name="formato" id="opcao">
+                <option>Escolha a opção</option>
+                <option id="meiaQuatro">Base 64</option>
+                <option id="cesar">Cifra de cesar</option>
+            </select>
+        </div>
+
+            <div id='sumir'>
+                <label for="casas">Digite a criptografia</label>
+                <input type="number" name="casas" id="casas">
+            </div>
+            <div>
+                <input type="radio" id="codifica" name='radioB'>
+                <label for="radioBCodifica">Codificar</label>
+                <input type="radio" id="descodifica" name='radioB'>
+                <label for="radioBDescodifica">Descodificar</label>
+            </div>
+            <div>
+                <button id="code">Codificar Mensagem!</button>
+                <button id="descode">Descodficar mensagem!</button>
+            </div>
+            <div id='resultado'></div>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>

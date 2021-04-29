@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    background-color: #fffff6;
+    background-image: url('./image/imagemback.png');
+    color:#f1f8ff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+#sumir{
+    visibility: hidden;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    
+}
+.campo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    
+}
+button{
+    visibility: hidden;
+    width: 100%;
+    margin: 2px;
+}
+.modeloFundo{
+    background-color: #000058;
+    border: 5px solid #000040; 
+    border-radius: 20px;
+    padding: 1%;
+    opacity: 92%;
+    margin:0.5%
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.conteudo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    background-color: #000048;
+    border: 5px solid #000040; 
+    border-radius: 20px;     
+}   
+.explica{
+    width: 80%;
+}
+#preencher{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    font-size: large;
+}
+#resultado{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000048;
+    margin:0;
+}
